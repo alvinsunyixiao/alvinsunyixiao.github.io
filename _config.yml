@@ -14,11 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Alvin's Home
-email: alvinsunyixiao *at* gmail *dot* com
+email: alvinsun(at)stanford(dot)edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Yixiao (Alvin) Sun's Homepage
 github_username: alvinsunyixiao
 minimal_mistakes_skin: sunrise
 search: true
@@ -63,8 +61,9 @@ author:
   bio: |-
     A robotics guy at Stanford  
     A piano player  
-    A volleyball player  
-    A learning-to-be freestyle skier  
+    A volleyball OH / MB  
+    A rollerblader  
+    A beginner freestyle skier  
   location: Stanford, CA
   links:
     - label: "GitHub"
