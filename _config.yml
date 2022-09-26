@@ -115,3 +115,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+# copy button for code blocks, see https://github.com/mmistakes/minimal-mistakes/discussions/2795
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
+  - assets/js/clipboardrouge.js
