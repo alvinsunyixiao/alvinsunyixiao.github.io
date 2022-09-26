@@ -15,10 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: Alvin's Home
 email: alvinsun(at)stanford(dot)edu
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Yixiao (Alvin) Sun's Homepage
 github_username: alvinsunyixiao
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: sunrise 
+url: "https://alvinsunyixiao.github.io"
+baseurl: ""
 search: true
 
 # Build settings
@@ -30,6 +32,12 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Comments
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
 
 include:
   - _pages
